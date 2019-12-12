@@ -21,6 +21,7 @@ blocks:
           commands:
             - bundle exec xcversion select 11.2.1
             - bundle update fastlane
+            - bundle exec fastlane update_plugins
             - bundle exec fastlane test
   - name: Build app
     task:
