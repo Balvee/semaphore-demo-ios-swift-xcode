@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0A603F1C227494C8009EAC08 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A603F1B227494C8009EAC08 /* HelloWorldUITests.swift */; };
-		EFB1A64D23A2CEA0007E5173 /* HelloWorldTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = F6C8423E2236FDE0003931B2 /* HelloWorldTests.xctest */; };
-		EFB1A64E23A2CEA4007E5173 /* HelloWorldUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 0A603F19227494C8009EAC08 /* HelloWorldUITests.xctest */; };
-		EFB1A64F23A2CEAA007E5173 /* HelloWorld.app in Resources */ = {isa = PBXBuildFile; fileRef = F6C8422A2236FDDF003931B2 /* HelloWorld.app */; };
 		F6C8422E2236FDDF003931B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C8422D2236FDDF003931B2 /* AppDelegate.swift */; };
 		F6C842302236FDDF003931B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C8422F2236FDDF003931B2 /* ViewController.swift */; };
 		F6C842332236FDDF003931B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C842312236FDDF003931B2 /* Main.storyboard */; };
@@ -234,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB1A64E23A2CEA4007E5173 /* HelloWorldUITests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +239,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C842382236FDDF003931B2 /* LaunchScreen.storyboard in Resources */,
-				EFB1A64F23A2CEAA007E5173 /* HelloWorld.app in Resources */,
 				F6C842352236FDDF003931B2 /* Assets.xcassets in Resources */,
 				F6C842332236FDDF003931B2 /* Main.storyboard in Resources */,
 			);
@@ -253,7 +248,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB1A64D23A2CEA0007E5173 /* HelloWorldTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 82KYL3H9B6;
+				DEVELOPMENT_TEAM = F3794YPTE6;
 				INFOPLIST_FILE = HelloWorldUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,7 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 82KYL3H9B6;
+				DEVELOPMENT_TEAM = F3794YPTE6;
 				INFOPLIST_FILE = HelloWorldUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,14 +497,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 82KYL3H9B6;
+				DEVELOPMENT_TEAM = F3794YPTE6;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = semaphoreci.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = balvee.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -544,8 +538,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 82KYL3H9B6;
+				DEVELOPMENT_TEAM = F3794YPTE6;
 				INFOPLIST_FILE = HelloWorldTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
