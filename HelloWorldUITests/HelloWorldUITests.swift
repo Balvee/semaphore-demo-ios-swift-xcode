@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import HelloWorld
 
 class HelloWorldUITests: XCTestCase {
 
