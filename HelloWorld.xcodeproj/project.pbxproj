@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A603F1C227494C8009EAC08 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A603F1B227494C8009EAC08 /* HelloWorldUITests.swift */; };
 		F6C8422E2236FDDF003931B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C8422D2236FDDF003931B2 /* AppDelegate.swift */; };
 		F6C842302236FDDF003931B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C8422F2236FDDF003931B2 /* ViewController.swift */; };
 		F6C842332236FDDF003931B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C842312236FDDF003931B2 /* Main.storyboard */; };
@@ -35,8 +34,6 @@
 
 /* Begin PBXFileReference section */
 		0A603F19227494C8009EAC08 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A603F1B227494C8009EAC08 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
-		0A603F1D227494C8009EAC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6C8422A2236FDDF003931B2 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C8422D2236FDDF003931B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6C8422F2236FDDF003931B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,21 +71,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A603F1A227494C8009EAC08 /* HelloWorldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0A603F1B227494C8009EAC08 /* HelloWorldUITests.swift */,
-				0A603F1D227494C8009EAC08 /* Info.plist */,
-			);
-			path = HelloWorldUITests;
-			sourceTree = "<group>";
-		};
 		F6C842212236FDDF003931B2 = {
 			isa = PBXGroup;
 			children = (
 				F6C8422C2236FDDF003931B2 /* HelloWorld */,
 				F6C842412236FDE0003931B2 /* HelloWorldTests */,
-				0A603F1A227494C8009EAC08 /* HelloWorldUITests */,
 				F6C8422B2236FDDF003931B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -258,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A603F1C227494C8009EAC08 /* HelloWorldUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
