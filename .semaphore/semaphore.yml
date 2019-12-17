@@ -45,6 +45,7 @@ blocks:
           commands:
             # Select an Xcode version, for available versions
             # See https://docs.semaphoreci.com/article/120-macos-mojave-image
+            - bundle exec fastlane update_plugins
             - bundle exec xcversion select 11.2.1
             # Run tests of iOS and Mac app on a simulator or connected device
             # See https://docs.fastlane.tools/actions/scan/
