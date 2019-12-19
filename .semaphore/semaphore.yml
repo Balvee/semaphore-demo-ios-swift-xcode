@@ -65,7 +65,7 @@ blocks:
         # Make the SSH key for the certificate repository and the MATCH_PASSWORD
         # environment variable available.
         # See https://docs.semaphoreci.com/article/109-using-private-dependencies
-        - name: match-secrets
+        - name: private-repo
       prologue:
         commands:
           # Add the key for the match certificate repository to ssh
