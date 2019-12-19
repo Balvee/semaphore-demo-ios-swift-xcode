@@ -70,7 +70,7 @@ blocks:
         commands:
           # Add the key for the match certificate repository to ssh
           # See https://docs.semaphoreci.com/article/109-using-private-dependencies
-          - chmod 0600 ~/.ssh/*
+          - chmod 0600 ~/.keys/*
           - ssh-add ~/.keys/*
 
           # Continue with checkout as normal
