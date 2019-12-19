@@ -68,10 +68,9 @@ blocks:
         - name: private-repo
       prologue:
         commands:
-          # Add the key for the match certificate repository to ssh
-          # See https://docs.semaphoreci.com/article/109-using-private-dependencies
-          - chmod 0600 ~/.keys/*
-          - ssh-add ~/.keys/*
+           # Correct premissions since they are too open by default:
+           - chmod 0600 ~/.ssh/*
+           - ssh-add ~/.ssh/match-repository-private-key
 
           # Continue with checkout as normal
           - checkout
