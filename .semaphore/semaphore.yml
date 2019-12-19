@@ -68,10 +68,10 @@ blocks:
         - name: private-repo
       prologue:
         commands:
-           # Correct premissions since they are too open by default:
-          - chmod 0600 ~/.keys/*
-          # Add the key to the ssh agent:
-          - ssh-add ~/.keys/match-repository-private-key
+#           # Correct premissions since they are too open by default:
+#          - chmod 0600 ~/.keys/*
+#          # Add the key to the ssh agent:
+#          - ssh-add ~/.keys/match-repository-private-key
 
           # Continue with checkout as normal
           - checkout
