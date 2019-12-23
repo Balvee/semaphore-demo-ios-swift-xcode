@@ -67,8 +67,7 @@ blocks:
         - name: LANG
           value: en_US.UTF-8
       secrets:
-        - name: fastlane-env
-        - name: ios-cert-repo
+        - name: private-repo
       commands:
         - checkout
         - bundle install --path vendor/bundle
