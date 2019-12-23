@@ -9,4 +9,4 @@ git_url('https://github.com/Balvee/semaphore-demo-ios-swift-xcode.git')
 username('balvare@att.net')
 
 type('adhoc')
-app_identifier('com.semaphoreci.TallestTowers')
+app_identifier('com.balvee.TallestTowers')
