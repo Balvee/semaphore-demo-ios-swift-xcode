@@ -85,7 +85,7 @@ blocks:
 
             # Upload the IPA file as a job artifact.
             # See https://docs.semaphoreci.com/article/155-artifacts
-            #- artifact push job TallestTowers.ipa
+            - artifact push job /Users/semaphore/semaphore-demo-ios-swift-xcode/build/TallestTowers.ipa
   - name: Take screenshots
     task:
       env_vars:
