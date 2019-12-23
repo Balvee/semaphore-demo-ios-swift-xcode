@@ -30,4 +30,12 @@ platform :ios do
   lane :screenshots do
     snapshot
   end
+  
+  desc "Submit the app to TestFlight"
+  lane :release do
+    match(type: "appstore")
+    gym
+    pilot
+  end
+
 end
