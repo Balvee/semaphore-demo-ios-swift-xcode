@@ -106,3 +106,19 @@ blocks:
             # Upload the screenshots directory as a project artifact.
             # See https://docs.semaphoreci.com/article/155-artifacts
             - artifact push job screenshots
+    - name: Submit to TestFlight
+        task:
+          env_vars:
+            - name: LANG
+              value: en_US.UTF-8
+          secrets:
+            - name: fastlane-env
+            - name: ios-cert-repo
+          prologue:
+            commands:
+              - checkout
+              - bundle install --path vendor/bundle
+          jobs:
+            - name: Fastlane build
+              commands:
+                - bundle exec fastlane release
