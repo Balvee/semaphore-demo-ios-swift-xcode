@@ -61,17 +61,17 @@ blocks:
       env_vars:
         - name: LANG
           value: en_US.UTF-8
-#      secrets:
-#        # Make the SSH key for the certificate repository and the MATCH_PASSWORD
-#        # environment variable available.
-#        # See https://docs.semaphoreci.com/article/109-using-private-dependencies
-#        - name: private-repo
+      secrets:
+        # Make the SSH key for the certificate repository and the MATCH_PASSWORD
+        # environment variable available.
+        # See https://docs.semaphoreci.com/article/109-using-private-dependencies
+        - name: private-repo
       prologue:
         commands:
 #           # Correct premissions since they are too open by default:
-#          - chmod 0600 ~/.keys/*
+          - chmod 0600 ~/.keys/*
 #          # Add the key to the ssh agent:
-#          - ssh-add ~/.keys/match-repository-private-key
+          - ssh-add ~/.keys/private-key
 
           # Continue with checkout as normal
           - checkout
