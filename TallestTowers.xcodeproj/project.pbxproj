@@ -574,9 +574,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3794YPTE6;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 36SSK7PDW3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TallestTowers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -585,7 +585,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.balvee.TallestTowersDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.balvee.TallestTowersDemo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -595,9 +595,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3794YPTE6;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 36SSK7PDW3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TallestTowers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,7 +606,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.balvee.TallestTowersDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.balvee.TallestTowersDemo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -620,7 +620,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3794YPTE6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TallestTowersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -646,7 +646,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3794YPTE6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TallestTowersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
