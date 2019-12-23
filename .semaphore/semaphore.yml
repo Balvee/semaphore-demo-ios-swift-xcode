@@ -69,9 +69,8 @@ blocks:
       prologue:
         commands:
 #           # Correct premissions since they are too open by default:
-          - chmod 0600 ~/.keys/*
-#          # Add the key to the ssh agent:
-          - ssh-add ~/.keys/private-key
+          - chmod 0600 ~/.ssh/*
+          - ssh-add ~/.ssh/match-repository-private-key
 
           # Continue with checkout as normal
           - checkout
