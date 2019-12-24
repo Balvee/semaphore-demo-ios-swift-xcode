@@ -82,4 +82,5 @@ blocks:
             - bundle exec fastlane match appstore
             - bundle exec fastlane release
       secrets:
+        - name: fastlane-env
         - name: private-repo
