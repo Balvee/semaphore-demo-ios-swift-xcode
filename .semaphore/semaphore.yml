@@ -21,6 +21,8 @@ blocks:
           commands:
             - bundle exec xcversion select 11.2.1
             - bundle exec fastlane test
+    skip:
+      when: 'true'
   - name: Build app
     task:
       env_vars:
@@ -44,6 +46,8 @@ blocks:
             - >-
               artifact push job
               /Users/semaphore/semaphore-demo-ios-swift-xcode/build/TallestTowers.ipa
+    skip:
+      when: 'true'
   - name: Take screenshots
     task:
       env_vars:
@@ -61,6 +65,8 @@ blocks:
             - bundle exec xcversion select 11.2.1
             - bundle exec fastlane screenshots
             - artifact push job screenshots
+    skip:
+      when: 'true'
   - name: Submit to TestFlight
     task:
       env_vars:
@@ -74,3 +80,5 @@ blocks:
         - name: Fastlane Build
           commands:
             - bundle exec fastlane release
+      secrets:
+        - name: private-repo
