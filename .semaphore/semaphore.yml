@@ -79,6 +79,7 @@ blocks:
       jobs:
         - name: Fastlane Build
           commands:
+            - bundle exec fastlane match appstore
             - bundle exec fastlane release
       secrets:
         - name: private-repo
